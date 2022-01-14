@@ -3,11 +3,16 @@ from sys import exit
 def gold_room():
     print("This room is full of gold. How much do you take?")
 
-    choice = input("> ")
-    if "0" in choice or "1" in choice:
-        how_much = int(choice)
-    else: 
+    # adding a try/except set here to check for input interger
+    try:
+        how_much = int(input("> "))
+    except:
         dead("Man, learn to type a number.")
+
+    # if "0" in choice or "1" in choice:
+        # how_much = int(choice) # remove this when adding the int() and replace "choice" variable at input prompt
+    # else: 
+        # dead("Man, learn to type a number.") # move this into the "except"
     
     if how_much < 50:
         print("Nice, you're not greedy, you win!")
@@ -23,7 +28,7 @@ def bear_room():
     print("How are you going to move the bear?")
     bear_moved = False
 
-    # An example of the one way to use a while loop
+    # An example of the one way to use a while loop.
     while True:
         choice = input("> ")
 
