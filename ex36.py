@@ -1,9 +1,11 @@
+# I'm aware there are cleaner ways to format the print strings - have to move on for time management! Better come back to get that while loop going, though. . . 
+
 from sys import exit
 
 def cave_spooky():
     print("""
     Luna and Gus slowly enter Cave Spooky and their eyes adjust to the darkness. At the back of the cave the notice a huge troll sleeping, snoring loudly.\n|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n""")
-    # choices: sneak by (find wand) or scream (die)
+    # choices: sneak by (find wand) or scream (fail)
 
 def deep_woods():
     print("""    Ahead in the trees, Luna sees the glimmering eyes 
