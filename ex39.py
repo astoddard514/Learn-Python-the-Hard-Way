@@ -61,3 +61,39 @@ if not state:
 # get a city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print(f"The city for the state 'TX' is: {city}")
+
+# ----------
+# NY State has:  New York
+# OR State has:  Portland
+# ----------
+# Michigan's abbreviation is:  MI
+# Florida's abbreviation is:  FL
+# ----------
+# Michigan has:  Detroit
+# Florida has:  Jacksonville
+# ----------
+# Oregon is abbreviated OR
+# Florida is abbreviated FL
+# California is abbreviated CA
+# New York is abbreviated NY
+# Michigan is abbreviated MI
+# ----------
+# and has city San Francisco
+# and has city Detroit
+# and has city Jacksonville
+# and has city New York
+# and has city Portland
+# ----------
+# Oregon state is abbreviated OR
+# and has city Portland
+# Florida state is abbreviated OR
+# and has city Portland
+# California state is abbreviated OR
+# and has city Portland
+# New York state is abbreviated OR
+# and has city Portland
+# Michigan state is abbreviated OR
+# and has city Portland
+# ----------
+# Sorry, no Texas.
+# The city for the state 'TX' is: Does Not Exist
