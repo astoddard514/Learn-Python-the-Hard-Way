@@ -45,7 +45,7 @@ def convert(snippet, phrase):
             random.sample(WORDS, param_count)))
     
     for sentence in snippet, phrase:
-        result = sentence[:]
+        result = sentence[:] # copies a list, ":" slices the list from the first element to the last
     
         # fake class names
         for word in class_names:
